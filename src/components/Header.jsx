@@ -39,7 +39,11 @@ export const Header = () => {
               border-4 bg-black border-white px-8 py-3 sm:px-10 lg:py-2  
               rounded-full hover:bg-gray-500 cursor-pointer 
               shadow-[2px_2px_15px_5px_rgba(0,0,0,0.5)]
-              '>Hire Me</button>
+              '>
+
+                <a href="https://drive.google.com/file/d/1Dr79RTLEVQZkgmitENJjwoyZ4cbShzaA/view?usp=sharing" target='_blank'>My Resume</a>
+
+              </button>
               {/* <i className="ri-grid-fill text-4xl cursor-pointer hidden md:block  w-fit "></i> */}
 
             </div>
