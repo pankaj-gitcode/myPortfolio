@@ -36,7 +36,7 @@ export default function Page1Bottom(){
         </div>
 
         <div className='btm-text absolute bottom-10 left-20 txt-shadow-black text-xl flex flex-col justify-start right-20'>
-            <h1 className='font-[font1] sm:hidden block'>BRAND2 & WEBSITE DESIGN</h1>
+            <h1 className='font-[font1] sm:hidden block'>BRAND & WEBSITE DESIGN</h1>
             <h1 className='font-[font2] sm:hidden block'>BESPOKE FREELANCE</h1>
         </div>
 
