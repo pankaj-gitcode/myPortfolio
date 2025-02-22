@@ -15,22 +15,22 @@ export const projectAtom = atom({
         {
             projectId: 1,
             projectTitle: 'Text To Image Generator',
-            gitHubLink: 'https://github.com/pankaj-gitcode/FullStackReactProjects',
-            webLink: 'https://google.com1',
+            gitHubLink: 'https://github.com/pankaj-gitcode/textToImageGenerator.git',
+            webLink: 'https://drive.google.com/file/d/1r7qk0R7CIsnJEhEQxFIC8WepA8PfzDGC/view?usp=sharing',
             image: profileImg.txtToImage
         },
         {
             projectId: 2,
             projectTitle: 'Portfolio',
-            gitHubLink: 'https://github.com/pankaj-gitcode3',
-            webLink: 'https://google.com3',
+            gitHubLink: 'https://github.com/pankaj-gitcode/myPortfolio.git',
+            webLink: 'https://pankajaditya.netlify.app/',
             image: profileImg.img1
         },
         {
             projectId: 3,
             projectTitle: 'Password Generator',
-            gitHubLink: 'https://github.com/pankaj-gitcode4',
-            webLink: 'https://google.com4',
+            gitHubLink: 'https://github.com/pankaj-gitcode/passwordGenerator.git',
+            webLink: 'https://password-generator-vitereact.netlify.app/',
             image: profileImg.passGen
         },
         // {
