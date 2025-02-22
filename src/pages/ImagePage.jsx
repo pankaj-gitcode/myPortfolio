@@ -44,14 +44,14 @@ export const ImagePage = () => {
     }}
     className='h-[100vh] flex items-center justify-center p-5 '>
               {/* ----------------- IMAGE DIV --------- */}
-      <div id='imgDiv' className='h-[50vh] sm:h-full w-full relative bg-gradient-to-l from-white
+      <div id='imgDiv' className='h-full w-full relative bg-gradient-to-l from-white
        to-black rounded-[50px] shadow-[2px_2px_20px_8px_rgba(0,0,0,0.8)]
         overflow-hidden 
         '>
                 {/* ------------ IMAGE ----------- */}
           <img src={profileImg.myImg} alt="img" 
               className='
-                  h-[50vh] sm:h-[100vh] absolute right-20 
+                  h-[30vh] sm:h-[100vh] absolute right-20 
                   drop-shadow-[20px_20px_200px_rgba(255,255,255,0.2)]
                   top-10 sm:top-10 md:top-20 lg:top-0 pl-20 
                   '
