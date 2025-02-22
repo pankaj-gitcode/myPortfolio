@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden */
+}
+
+html,body{
+  background-color: #fff;
+  color: #fff;
+  /* color:rgb(117, 116, 116); */
+  /* height: 100vh;
+  width: 100vw; */
+}
+
+@font-face{
+  font-family: font1;
+  src: url('./assets/fonts/font_1.woff2');
+}
+
+@font-face{
+  font-family: font2;
+  src: url('./assets/fonts/font_2.woff2');
+}
+@font-face{
+  font-family: font3;
+  src: url('./assets/fonts/font_3.woff2');
+}
+@font-face{
+  font-family: font4;
+  src: url('./assets/fonts/font_4.woff2');
+}
+@font-face{
+  font-family: font5;
+  src: url('./assets/fonts/font_5.woff2');
+}
+@font-face{
+  font-family: font6;
+  src: url('./assets/fonts/font-6.woff2');
+}
+/* ------------------ 1st Page ---------------- */
+              /* ----LOGO---- */
+.text-shdow{
+  text-shadow: 2px 2px 30px rgba(255, 255, 255, 0.6)
+}
+
+#imgDiv{
+  perspective: 2000px;
+}
+
+#shortInfo{
+  transform: rotateY(40deg)
+}
+
+.txt-shadow-black{
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.7)
+}
+
+/* ------------ 2nd PAGE ------------- */
+.page2{
+  position: relative;
+  perspective: 3000px;
+}
+.txts{
+  transform-origin: 100% 90%;
+}
+
+.crsrCircle{
+  mix-blend-mode: difference;
+  transition: linear 5s ease-in-out
+}
