@@ -4,6 +4,7 @@ import Page1Bottom from '../components/Page1Bottom'
 import ShortInfo from '../components/ShortInfo'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import { profileImg } from '../assets/asset'
 
 export const ImagePage = () => {
   const [cord, setCord] = useState({
@@ -48,7 +49,7 @@ export const ImagePage = () => {
         overflow-hidden 
         '>
                 {/* ------------ IMAGE ----------- */}
-          <img src='/public/images/me3.png' alt="img" 
+          <img src={profileImg.myImg} alt="img" 
               className='
                   h-[100vh] absolute right-20 
                   drop-shadow-[20px_20px_200px_rgba(255,255,255,0.2)]

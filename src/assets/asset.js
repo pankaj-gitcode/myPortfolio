@@ -8,6 +8,8 @@ import facebook from './facebook.png'
 import github from './github.png'
 import txtToImage from './txtToImage.png'
 import passGen from './passGen.png'
+import myImg from './myImg.png'
+
 
 export const profileImg = {
     img1, 
@@ -19,5 +21,6 @@ export const profileImg = {
     twitter,
     github,
     txtToImage,
-    passGen
+    passGen,
+    myImg
 }
